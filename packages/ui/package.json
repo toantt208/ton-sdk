@@ -1,6 +1,6 @@
 {
-  "name": "@tonconnect/ui",
-  "version": "2.0.7-beta.2",
+  "name": "redconnectui",
+  "version": "1.0.2",
   "scripts": {
     "start": "vite --host",
     "dev": "vite",
@@ -75,5 +75,9 @@
   },
   "typedoc": {
     "entryPoint": "./src/library.ts"
+  },
+  "description": "TonConnect UI is a UI kit for TonConnect SDK. Use it to connect your app to TON wallets via TonConnect protocol.",
+  "directories": {
+    "lib": "lib"
   }
 }

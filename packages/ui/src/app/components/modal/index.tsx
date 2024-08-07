@@ -104,7 +104,7 @@ export const Modal: Component<ModalProps> = props => {
                                 }
                             `
                         )}
-                        use:clickOutside={() => props.onClose()}
+                        use:clickOutside={() => {}}
                         use:keyPressed={() => props.onClose()}
                         use:androidBackHandler={{
                             isEnabled: props.enableAndroidBackHandler,
